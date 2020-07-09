@@ -1,0 +1,199 @@
+PODS:
+  - AWSAuth (2.14.0):
+    - AWSAuth/Core (= 2.14.0)
+    - AWSAuth/FacebookSignIn (= 2.14.0)
+    - AWSAuth/GoogleSignIn (= 2.14.0)
+    - AWSAuth/UI (= 2.14.0)
+    - AWSAuth/UserPoolsSignIn (= 2.14.0)
+  - AWSAuth/Core (2.14.0):
+    - AWSAuthCore (= 2.14.0)
+  - AWSAuth/FacebookSignIn (2.14.0):
+    - AWSFacebookSignIn (= 2.14.0)
+  - AWSAuth/GoogleSignIn (2.14.0):
+    - AWSGoogleSignIn (= 2.14.0)
+  - AWSAuth/UI (2.14.0):
+    - AWSAuthUI (= 2.14.0)
+  - AWSAuth/UserPoolsSignIn (2.14.0):
+    - AWSUserPoolsSignIn (= 2.14.0)
+  - AWSAuthCore (2.14.0):
+    - AWSCore (= 2.14.0)
+  - AWSAuthUI (2.14.0):
+    - AWSAuthCore (= 2.14.0)
+    - AWSCore (= 2.14.0)
+  - AWSAutoScaling (2.14.0):
+    - AWSCore (= 2.14.0)
+  - AWSCloudWatch (2.14.0):
+    - AWSCore (= 2.14.0)
+  - AWSCognito (2.14.0):
+    - AWSCore (= 2.14.0)
+  - AWSCognitoIdentityProvider (2.14.0):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.14.0)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.14.0)
+  - AWSDynamoDB (2.14.0):
+    - AWSCore (= 2.14.0)
+  - AWSEC2 (2.14.0):
+    - AWSCore (= 2.14.0)
+  - AWSElasticLoadBalancing (2.14.0):
+    - AWSCore (= 2.14.0)
+  - AWSFacebookSignIn (2.14.0):
+    - AWSAuthCore (= 2.14.0)
+    - FBSDKCoreKit (= 5.8)
+    - FBSDKLoginKit (= 5.8)
+  - AWSGoogleSignIn (2.14.0):
+    - AWSAuthCore (= 2.14.0)
+  - AWSIoT (2.14.0):
+    - AWSCore (= 2.14.0)
+  - AWSKinesis (2.14.0):
+    - AWSCore (= 2.14.0)
+  - AWSKMS (2.14.0):
+    - AWSCore (= 2.14.0)
+  - AWSLambda (2.14.0):
+    - AWSCore (= 2.14.0)
+  - AWSLex (2.14.0):
+    - AWSCore (= 2.14.0)
+  - AWSLogs (2.14.0):
+    - AWSCore (= 2.14.0)
+  - AWSMachineLearning (2.14.0):
+    - AWSCore (= 2.14.0)
+  - AWSMobileClient (2.14.0):
+    - AWSAuthCore (= 2.14.0)
+    - AWSCognitoIdentityProvider (= 2.14.0)
+  - AWSPinpoint (2.14.0):
+    - AWSCore (= 2.14.0)
+  - AWSPolly (2.14.0):
+    - AWSCore (= 2.14.0)
+  - AWSRekognition (2.14.0):
+    - AWSCore (= 2.14.0)
+  - AWSS3 (2.14.0):
+    - AWSCore (= 2.14.0)
+  - AWSSES (2.14.0):
+    - AWSCore (= 2.14.0)
+  - AWSSimpleDB (2.14.0):
+    - AWSCore (= 2.14.0)
+  - AWSSNS (2.14.0):
+    - AWSCore (= 2.14.0)
+  - AWSSQS (2.14.0):
+    - AWSCore (= 2.14.0)
+  - AWSUserPoolsSignIn (2.14.0):
+    - AWSAuthCore (= 2.14.0)
+    - AWSCognitoIdentityProvider (= 2.14.0)
+  - FBSDKCoreKit (5.8.0):
+    - FBSDKCoreKit/Basics (= 5.8.0)
+    - FBSDKCoreKit/Core (= 5.8.0)
+  - FBSDKCoreKit/Basics (5.8.0)
+  - FBSDKCoreKit/Core (5.8.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.8.0):
+    - FBSDKLoginKit/Login (= 5.8.0)
+  - FBSDKLoginKit/Login (5.8.0):
+    - FBSDKCoreKit (~> 5.0)
+
+DEPENDENCIES:
+  - AWSAuth
+  - AWSAuthCore
+  - AWSAuthUI
+  - AWSAutoScaling
+  - AWSCloudWatch
+  - AWSCognito
+  - AWSCognitoIdentityProvider
+  - AWSCognitoIdentityProviderASF
+  - AWSCore
+  - AWSDynamoDB
+  - AWSEC2
+  - AWSElasticLoadBalancing
+  - AWSFacebookSignIn
+  - AWSGoogleSignIn
+  - AWSIoT
+  - AWSKinesis
+  - AWSKMS
+  - AWSLambda
+  - AWSLex
+  - AWSLogs
+  - AWSMachineLearning
+  - AWSMobileClient
+  - AWSPinpoint
+  - AWSPolly
+  - AWSRekognition
+  - AWSS3
+  - AWSSES
+  - AWSSimpleDB
+  - AWSSNS
+  - AWSSQS
+  - AWSUserPoolsSignIn
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AWSAuth
+    - AWSAuthCore
+    - AWSAuthUI
+    - AWSAutoScaling
+    - AWSCloudWatch
+    - AWSCognito
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSDynamoDB
+    - AWSEC2
+    - AWSElasticLoadBalancing
+    - AWSFacebookSignIn
+    - AWSGoogleSignIn
+    - AWSIoT
+    - AWSKinesis
+    - AWSKMS
+    - AWSLambda
+    - AWSLex
+    - AWSLogs
+    - AWSMachineLearning
+    - AWSMobileClient
+    - AWSPinpoint
+    - AWSPolly
+    - AWSRekognition
+    - AWSS3
+    - AWSSES
+    - AWSSimpleDB
+    - AWSSNS
+    - AWSSQS
+    - AWSUserPoolsSignIn
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+
+SPEC CHECKSUMS:
+  AWSAuth: bfb1d2da54c75e22e58ca92792f105d10778f01d
+  AWSAuthCore: 6b337af04751dcbb4bc50f18dbed0343ba345e17
+  AWSAuthUI: 68295abc5167a2e55502515c70b1e904df3df407
+  AWSAutoScaling: e44ec001d7bff3a65e50d8fd9ca0a3761a91020e
+  AWSCloudWatch: d662d947446ca4121392b9abc99ed9713bf8b8ae
+  AWSCognito: 39c3c4633031df0156fabee637f80098393f13a0
+  AWSCognitoIdentityProvider: bd4cf5f70b9224b1ea42b423a75716cafb8f7ac4
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: 6398ca88010f34653a07d54a252affe920a99965
+  AWSDynamoDB: 5304360842f47c582803b4e87498844ab341ed12
+  AWSEC2: db18f619655ff95c09700060a1dd21bf4e97bac6
+  AWSElasticLoadBalancing: b5754958b3f0483c4542fb00e57bce765054ce1a
+  AWSFacebookSignIn: 255e6cd5864f139f54b389bcde3cbe740f327d92
+  AWSGoogleSignIn: 9ad267aa8d7a75423f9cb414a9b29ba895773bfe
+  AWSIoT: fd4c77a7696182538a45a75ea574ec89611fcf88
+  AWSKinesis: 7a2543e6505c8daa4f4e4f74e6667bf009cfcb54
+  AWSKMS: 21be8542db45fe7bcbc77f182cd44d9f139ddb44
+  AWSLambda: 9dbfa87a24f0b39351f5a4086a7facff7eb74eca
+  AWSLex: 7752991dba92e7b55314727ff0244cd269f5ec71
+  AWSLogs: 58dc517791cafca5674649aeb8d94dd6bfac529e
+  AWSMachineLearning: b1e416b7e6e940328ffdc48cdbea058b968986fb
+  AWSMobileClient: 0f4ae3f60722fc2cec7ca926fd442ff55a2154a5
+  AWSPinpoint: 8e7824c3095a9575543350cc3f291036b0d3173d
+  AWSPolly: b716120b1a7b495dff9d5d580be4f8bd973387f0
+  AWSRekognition: dd59c06a8225fa8eb3f1b2e5648a6741c2d2a38e
+  AWSS3: 947204f8280a28864e899f7544176ff53a0e87e9
+  AWSSES: 3f641551703ebb022a40cb5b2da670cfe7fb2112
+  AWSSimpleDB: 6cdb9400e10d6309c38d36f6a8da53562ebea716
+  AWSSNS: 31586417af9e4833dbf2475d58823da552c005f7
+  AWSSQS: 9672002b7c94aed08e5a0e582d3f12299574a14a
+  AWSUserPoolsSignIn: d0664c59f569b02ef1f8c34d5247e8dd66e3d8d8
+  FBSDKCoreKit: e7dcac0aabcfb09d0166998edd95fe3b05a0ce5d
+  FBSDKLoginKit: 1b0cf04df0370b37404213157b060d6666ede814
+
+PODFILE CHECKSUM: ea08dbe46c31ac5da91a6d3873b683e0e0066092
+
+COCOAPODS: 1.9.3

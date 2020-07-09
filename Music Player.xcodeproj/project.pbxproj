@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A50AEB7924B50C68000700B1 /* AWS.m in Sources */ = {isa = PBXBuildFile; fileRef = A50AEB7824B50C68000700B1 /* AWS.m */; };
+		A52850D324B4F7F3002E100E /* Juice WRLD - Love WRLD II.png in Resources */ = {isa = PBXBuildFile; fileRef = A52850D224B4F7F3002E100E /* Juice WRLD - Love WRLD II.png */; };
+		A54BCB6624B53655006C3CB4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54BCB6524B53655006C3CB4 /* AVFoundation.framework */; };
 		A5BA5B5724B4D8580015EF2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BA5B5624B4D8580015EF2D /* AppDelegate.swift */; };
 		A5BA5B5924B4D8580015EF2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BA5B5824B4D8580015EF2D /* SceneDelegate.swift */; };
 		A5BA5B5B24B4D8580015EF2D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BA5B5A24B4D8580015EF2D /* FirstViewController.swift */; };
@@ -14,9 +17,20 @@
 		A5BA5B6024B4D8580015EF2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5BA5B5E24B4D8580015EF2D /* Main.storyboard */; };
 		A5BA5B6224B4D85A0015EF2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5BA5B6124B4D85A0015EF2D /* Assets.xcassets */; };
 		A5BA5B6524B4D85A0015EF2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5BA5B6324B4D85A0015EF2D /* LaunchScreen.storyboard */; };
+		A5BA5B7524B4DD5A0015EF2D /* 08 - Juice WRLD - Cigarettes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5BA5B7024B4DD5A0015EF2D /* 08 - Juice WRLD - Cigarettes.mp3 */; };
+		A5BA5B7624B4DD5A0015EF2D /* 03 - Juice WRLD - Chimp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5BA5B7124B4DD5A0015EF2D /* 03 - Juice WRLD - Chimp.mp3 */; };
+		A5BA5B7724B4DD5A0015EF2D /* 06 - Juice WRLD - All Out.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5BA5B7224B4DD5A0015EF2D /* 06 - Juice WRLD - All Out.mp3 */; };
+		A5BA5B7824B4DD5A0015EF2D /* 05 - Juice WRLD - Astray.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5BA5B7324B4DD5A0015EF2D /* 05 - Juice WRLD - Astray.mp3 */; };
+		A5BA5B7924B4DD5A0015EF2D /* 04 - Juice WRLD - Alright.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5BA5B7424B4DD5A0015EF2D /* 04 - Juice WRLD - Alright.mp3 */; };
+		FF81A562986214C3E88AEB08 /* Pods_Music_Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B32D34FCB978AE1675E6609 /* Pods_Music_Player.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B32D34FCB978AE1675E6609 /* Pods_Music_Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Music_Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50AEB7724B50C68000700B1 /* Music Player-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Music Player-Bridging-Header.h"; sourceTree = "<group>"; };
+		A50AEB7824B50C68000700B1 /* AWS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWS.m; sourceTree = "<group>"; };
+		A52850D224B4F7F3002E100E /* Juice WRLD - Love WRLD II.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Juice WRLD - Love WRLD II.png"; sourceTree = "<group>"; };
+		A54BCB6524B53655006C3CB4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A5BA5B5324B4D8580015EF2D /* Music Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5BA5B5624B4D8580015EF2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5BA5B5824B4D8580015EF2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +40,13 @@
 		A5BA5B6124B4D85A0015EF2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5BA5B6424B4D85A0015EF2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5BA5B6624B4D85A0015EF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5BA5B7024B4DD5A0015EF2D /* 08 - Juice WRLD - Cigarettes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "08 - Juice WRLD - Cigarettes.mp3"; sourceTree = "<group>"; };
+		A5BA5B7124B4DD5A0015EF2D /* 03 - Juice WRLD - Chimp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03 - Juice WRLD - Chimp.mp3"; sourceTree = "<group>"; };
+		A5BA5B7224B4DD5A0015EF2D /* 06 - Juice WRLD - All Out.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "06 - Juice WRLD - All Out.mp3"; sourceTree = "<group>"; };
+		A5BA5B7324B4DD5A0015EF2D /* 05 - Juice WRLD - Astray.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "05 - Juice WRLD - Astray.mp3"; sourceTree = "<group>"; };
+		A5BA5B7424B4DD5A0015EF2D /* 04 - Juice WRLD - Alright.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04 - Juice WRLD - Alright.mp3"; sourceTree = "<group>"; };
+		C2EA5BB79336E8B147AE75CD /* Pods-Music Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music Player.debug.xcconfig"; path = "Target Support Files/Pods-Music Player/Pods-Music Player.debug.xcconfig"; sourceTree = "<group>"; };
+		F0D9A5709C3377801534BFC0 /* Pods-Music Player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music Player.release.xcconfig"; path = "Target Support Files/Pods-Music Player/Pods-Music Player.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A54BCB6624B53655006C3CB4 /* AVFoundation.framework in Frameworks */,
+				FF81A562986214C3E88AEB08 /* Pods_Music_Player.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +67,8 @@
 			children = (
 				A5BA5B5524B4D8580015EF2D /* Music Player */,
 				A5BA5B5424B4D8580015EF2D /* Products */,
+				CC5069D6F5F9B6184B219B07 /* Pods */,
+				A95517E78B7EF11C6A59E52F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,13 +86,47 @@
 				A5BA5B5624B4D8580015EF2D /* AppDelegate.swift */,
 				A5BA5B5824B4D8580015EF2D /* SceneDelegate.swift */,
 				A5BA5B5A24B4D8580015EF2D /* FirstViewController.swift */,
+				A50AEB7824B50C68000700B1 /* AWS.m */,
 				A5BA5B5C24B4D8580015EF2D /* SecondViewController.swift */,
 				A5BA5B5E24B4D8580015EF2D /* Main.storyboard */,
 				A5BA5B6124B4D85A0015EF2D /* Assets.xcassets */,
 				A5BA5B6324B4D85A0015EF2D /* LaunchScreen.storyboard */,
 				A5BA5B6624B4D85A0015EF2D /* Info.plist */,
+				A52850D224B4F7F3002E100E /* Juice WRLD - Love WRLD II.png */,
+				A5BA5B6F24B4DD5A0015EF2D /* Favs */,
+				A50AEB7724B50C68000700B1 /* Music Player-Bridging-Header.h */,
 			);
 			path = "Music Player";
+			sourceTree = "<group>";
+		};
+		A5BA5B6F24B4DD5A0015EF2D /* Favs */ = {
+			isa = PBXGroup;
+			children = (
+				A5BA5B7024B4DD5A0015EF2D /* 08 - Juice WRLD - Cigarettes.mp3 */,
+				A5BA5B7124B4DD5A0015EF2D /* 03 - Juice WRLD - Chimp.mp3 */,
+				A5BA5B7224B4DD5A0015EF2D /* 06 - Juice WRLD - All Out.mp3 */,
+				A5BA5B7324B4DD5A0015EF2D /* 05 - Juice WRLD - Astray.mp3 */,
+				A5BA5B7424B4DD5A0015EF2D /* 04 - Juice WRLD - Alright.mp3 */,
+			);
+			path = Favs;
+			sourceTree = "<group>";
+		};
+		A95517E78B7EF11C6A59E52F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A54BCB6524B53655006C3CB4 /* AVFoundation.framework */,
+				7B32D34FCB978AE1675E6609 /* Pods_Music_Player.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC5069D6F5F9B6184B219B07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2EA5BB79336E8B147AE75CD /* Pods-Music Player.debug.xcconfig */,
+				F0D9A5709C3377801534BFC0 /* Pods-Music Player.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5BA5B6924B4D85A0015EF2D /* Build configuration list for PBXNativeTarget "Music Player" */;
 			buildPhases = (
+				3BA1EE7628332697026BE0D6 /* [CP] Check Pods Manifest.lock */,
 				A5BA5B4F24B4D8570015EF2D /* Sources */,
 				A5BA5B5024B4D8570015EF2D /* Frameworks */,
 				A5BA5B5124B4D8570015EF2D /* Resources */,
+				BE75825C69FDB054BB0CAE5D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -102,6 +163,7 @@
 				TargetAttributes = {
 					A5BA5B5224B4D8570015EF2D = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 				};
 			};
@@ -128,13 +190,61 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5BA5B7524B4DD5A0015EF2D /* 08 - Juice WRLD - Cigarettes.mp3 in Resources */,
+				A52850D324B4F7F3002E100E /* Juice WRLD - Love WRLD II.png in Resources */,
+				A5BA5B7624B4DD5A0015EF2D /* 03 - Juice WRLD - Chimp.mp3 in Resources */,
+				A5BA5B7824B4DD5A0015EF2D /* 05 - Juice WRLD - Astray.mp3 in Resources */,
 				A5BA5B6524B4D85A0015EF2D /* LaunchScreen.storyboard in Resources */,
 				A5BA5B6224B4D85A0015EF2D /* Assets.xcassets in Resources */,
+				A5BA5B7924B4DD5A0015EF2D /* 04 - Juice WRLD - Alright.mp3 in Resources */,
 				A5BA5B6024B4D8580015EF2D /* Main.storyboard in Resources */,
+				A5BA5B7724B4DD5A0015EF2D /* 06 - Juice WRLD - All Out.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BA1EE7628332697026BE0D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Music Player-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE75825C69FDB054BB0CAE5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Music Player/Pods-Music Player-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Music Player/Pods-Music Player-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Music Player/Pods-Music Player-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A5BA5B4F24B4D8570015EF2D /* Sources */ = {
@@ -143,6 +253,7 @@
 			files = (
 				A5BA5B5D24B4D8580015EF2D /* SecondViewController.swift in Sources */,
 				A5BA5B5B24B4D8580015EF2D /* FirstViewController.swift in Sources */,
+				A50AEB7924B50C68000700B1 /* AWS.m in Sources */,
 				A5BA5B5724B4D8580015EF2D /* AppDelegate.swift in Sources */,
 				A5BA5B5924B4D8580015EF2D /* SceneDelegate.swift in Sources */,
 			);
@@ -286,9 +397,12 @@
 		};
 		A5BA5B6A24B4D85A0015EF2D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2EA5BB79336E8B147AE75CD /* Pods-Music Player.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6P48A5C8MR;
 				INFOPLIST_FILE = "Music Player/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -296,16 +410,21 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.friendsic.Music-Player";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Music Player/Music Player-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A5BA5B6B24B4D85A0015EF2D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0D9A5709C3377801534BFC0 /* Pods-Music Player.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6P48A5C8MR;
 				INFOPLIST_FILE = "Music Player/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -313,8 +432,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.friendsic.Music-Player";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Music Player/Music Player-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
